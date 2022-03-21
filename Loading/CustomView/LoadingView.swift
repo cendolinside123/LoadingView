@@ -46,7 +46,7 @@ public class LoadingView: UIView {
     }
 
     private func addLayout() {
-        self.addSubview(loadingSpinner)
+        self.addSubview(loadingView)
         loadingView.addSubview(loadingSpinner)
     }
     
