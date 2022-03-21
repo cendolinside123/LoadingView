@@ -19,7 +19,7 @@ public class LoadingView: UIView {
     
     private let loadingSpinner: UIActivityIndicatorView = {
         let spiner = UIActivityIndicatorView()
-        spiner.backgroundColor = .gray
+        spiner.color = .gray
         return spiner
     }()
     private let loadingView: UIView = {
